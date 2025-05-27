@@ -1,0 +1,55 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #222;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.clock-container {
+  text-align: center;
+}
+
+#clock {
+  font-size: 4em;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+button {
+  font-size: 1.2em;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:first-child {
+  background-color: #4caf50; /* Start */
+  color: white;
+}
+
+button:last-child {
+  background-color: #f44336; /* Stop */
+  color: white;
+}
+body {
+  background: url('Clock.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+
